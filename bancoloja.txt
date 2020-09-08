@@ -1,0 +1,11 @@
+create database loja;
+
+use loja;
+
+create table produto(
+idproduto int auto_increment not null,
+nomeproduto varchar(200) null,
+quantidade int null,
+peso double null,
+preco double null,
+primary key(idproduto));
